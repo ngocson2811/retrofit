@@ -17,6 +17,10 @@ class ProductFragment : Fragment(R.layout.fragment_product) {
 
         val recyclerView = view.findViewById<RecyclerView>(R.id.recyclerView)
 
+
+
+
+
         viewModel = ViewModelProvider(this)[ProductViewModel::class.java]
 
         adapter = ProductAdapter()
